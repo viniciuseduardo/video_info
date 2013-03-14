@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.videolog.tv/video/videolog.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/plain
+      date:
+      - Thu, 14 Mar 2013 02:50:22 GMT
+      server:
+      - TornadoServer/2.4
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '297'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/tornado/web.py\",
+        line 1037, in _execute\n    self.prepare()\n  File \"/usr/local/lib/python2.7/dist-packages/tornado/web.py\",
+        line 1487, in prepare\n    raise HTTPError(self._status_code)\nHTTPError:
+        HTTP 404: Not Found\n"
+    http_version: '1.1'
+  recorded_at: Thu, 14 Mar 2013 02:50:07 GMT
+- request:
+    method: get
+    uri: http://api.videolog.tv/video/526856.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - max-age=0
+      - no-cache
+      content-type:
+      - application/json; charset=UTF-8
+      date:
+      - Thu, 14 Mar 2013 02:57:08 GMT
+      etag:
+      - ! '"193393d7c4905265e9237509c74424269eca0e18"'
+      expires:
+      - Thu, 14 Mar 2013 02:57:08 GMT
+      server:
+      - TornadoServer/2.4
+      content-length:
+      - '1656'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"video": {"ordem": 6, "id_canal": 13, "thumb": "http://videolog.tv/video_thumb.php?video=526856",
+        "tags": [{"visivel": "S", "nome": "de"}, {"visivel": "S", "nome": "video"},
+        {"visivel": "S", "nome": "videolog"}, {"visivel": "S", "nome": "vivo"}, {"visivel":
+        "S", "nome": "web"}, {"visivel": "S", "nome": "pela"}, {"visivel": "S", "nome":
+        "transmissao"}, {"visivel": "S", "nome": "ao"}, {"visivel": "S", "nome": "ao
+        vivo"}], "mobile": "S", "url_mp4": "http://cdn-br.videolog.tv/55/bd/526856.mp4?epochTTL=9815254761600&token=4962dc08853362e52b7293d2cda737d7&ri=10485760&rs=600",
+        "duracao": "00:00:44", "uri": "/video/526856.json", "uri_videos_relacionados":
+        "/video/526856/videosRelacionados.json", "texto": "Assista a um trecho da
+        primeira transmiss\u00e3o ao Vivo do Videolog. Em parceria com o Governo do
+        Estado do Rio de Janeiro, a transmiss\u00e3o foi da campanha. O pequeno atraso
+        do \u00e1udio \u00e9 por causa da grava\u00e7\u00e3o no computador.", "visitas":
+        4131, "sinc": 3, "usuario_id": 193905, "criacao": "2010-03-17T20:47:01", "link":
+        "http://videolog.tv/video.php?id=526856", "privacidade": "0", "titulo": "Demo
+        - Videolog Ao Vivo", "embed": "                 <iframe width=''560'' height=315
+        src=''http://embed.videolog.tv/v/index.php?id_video=526856&width=560&height=315&config_url=''
+        scrolling=''no'' frameborder=''0'' allowfullscreen></iframe>                 <p><a
+        href=''http://www.videolog.tv/video.php?id=526856''>Demo - Videolog Ao Vivo</a>
+        por <a href=''http://www.videolog.tv/videolog''> videolog </a> no <a href=''http://www.videolog.tv''>Videolog.tv</a>.</p>               ",
+        "uri_comentarios": "/video/526856/comentarios.json", "id": 526856}}'
+    http_version: '1.1'
+  recorded_at: Thu, 14 Mar 2013 02:56:54 GMT
+recorded_with: VCR 2.4.0

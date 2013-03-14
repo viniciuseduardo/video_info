@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.videolog.tv/video/946345.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - max-age=0
+      - no-cache
+      content-type:
+      - application/json; charset=UTF-8
+      date:
+      - Thu, 14 Mar 2013 02:18:20 GMT
+      etag:
+      - ! '"f55cb62eefd37ad835449d9add29c4c0691e3eed"'
+      expires:
+      - Thu, 14 Mar 2013 02:18:20 GMT
+      server:
+      - TornadoServer/2.4
+      content-length:
+      - '1211'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"video": {"ordem": 1, "id_canal": 5, "thumb": "http://videolog.tv/video_thumb.php?video=946345",
+        "tags": [{"visivel": "S", "nome": "kuat interacao"}], "metatags": [{"content":
+        "", "name": "cidade"}], "url_mp4": "http://cdn-br.videolog.tv/a7/b5/946345.mp4?epochTTL=9815238000000&token=8ad6c708a6676565b22a607a748bcb84&ri=10485760&rs=600",
+        "duracao": "00:01:42", "uri": "/video/946345.json", "uri_videos_relacionados":
+        "/video/946345/videosRelacionados.json", "texto": "Kuat Intera\u00e7\u00e3o",
+        "visitas": 38, "sinc": 3, "mobile": "S", "usuario_id": 193905, "criacao":
+        "2013-03-11T11:58:27", "link": "http://videolog.tv/video.php?id=946345", "privacidade":
+        "0", "titulo": "Kuat Intera\u00e7\u00e3o", "embed": "                 <iframe
+        width=''560'' height=315 src=''http://embed.videolog.tv/v/index.php?id_video=946345&width=560&height=315&config_url=''
+        scrolling=''no'' frameborder=''0'' allowfullscreen></iframe>                 <p><a
+        href=''http://www.videolog.tv/video.php?id=946345''>Kuat Intera\u00e7\u00e3o</a>
+        por <a href=''http://www.videolog.tv/videolog''> videolog </a> no <a href=''http://www.videolog.tv''>Videolog.tv</a>.</p>               ",
+        "uri_comentarios": "/video/946345/comentarios.json", "id": 946345}}'
+    http_version: '1.1'
+  recorded_at: Thu, 14 Mar 2013 02:18:05 GMT
+recorded_with: VCR 2.4.0

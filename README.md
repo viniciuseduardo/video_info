@@ -45,6 +45,14 @@ Usage
   # video.thumbnail_large  => "http://b.vimeocdn.com/ts/343/731/34373130_640.jpg"
   # video.embed_url        => "http://player.vimeo.com/video/898029"
   # video.embed_code       => "'<iframe src="http://player.vimeo.com/video/898029?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" frameborder="0"></iframe>'"
+
+
+  video = VideoInfo.get("http://videolog.tv/video.php?id=671092")
+
+  # video.video_id         => "671092"
+  # video.provider         => "Videolog"
+  # video.title            => "Novo Player Videolog"
+  # video.description      => "Conheça o novo player do Videolog completamente customizável!"
 ```
 
 Options

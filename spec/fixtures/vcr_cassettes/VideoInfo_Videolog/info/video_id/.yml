@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.videolog.tv/video/671092.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - max-age=0
+      - no-cache
+      content-type:
+      - application/json; charset=UTF-8
+      date:
+      - Thu, 14 Mar 2013 02:18:16 GMT
+      etag:
+      - ! '"296c512e6717b64b4553242feb806cdb269c6c27"'
+      expires:
+      - Thu, 14 Mar 2013 02:18:16 GMT
+      server:
+      - TornadoServer/2.4
+      content-length:
+      - '1607'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"video": {"ordem": 2, "id_canal": 18, "thumb": "http://videolog.tv/video_thumb.php?video=671092",
+        "tags": [{"visivel": "S", "nome": "do"}, {"visivel": "S", "nome": "videolog"},
+        {"visivel": "S", "nome": "brasil"}, {"visivel": "S", "nome": "player"}, {"visivel":
+        "S", "nome": "cores"}, {"visivel": "S", "nome": "personalizacao"}, {"visivel":
+        "S", "nome": "flash player"}, {"visivel": "S", "nome": "video player"}, {"visivel":
+        "S", "nome": "player customizavel"}, {"visivel": "S", "nome": "marca d\\''agua"}],
+        "mobile": "S", "url_mp4": "http://cdn-br.videolog.tv/b3/17/671092.mp4?epochTTL=9815237971200&token=68550d2c54d1762e45a23f2ae6034b97&ri=10485760&rs=600",
+        "duracao": "00:01:09", "uri": "/video/671092.json", "uri_videos_relacionados":
+        "/video/671092/videosRelacionados.json", "texto": "Conhe\u00e7a o novo player
+        do Videolog completamente customiz\u00e1vel! \nSaiba mais em http://www.videolog.tv/playerV4",
+        "visitas": 12832, "sinc": 3, "usuario_id": 193905, "criacao": "2011-06-27T05:19:19",
+        "link": "http://videolog.tv/video.php?id=671092", "privacidade": "0", "titulo":
+        "Novo Player Videolog", "embed": "                 <iframe width=''560'' height=315
+        src=''http://embed.videolog.tv/v/index.php?id_video=671092&width=560&height=315&config_url=''
+        scrolling=''no'' frameborder=''0'' allowfullscreen></iframe>                 <p><a
+        href=''http://www.videolog.tv/video.php?id=671092''>Novo Player Videolog</a>
+        por <a href=''http://www.videolog.tv/videolog''> videolog </a> no <a href=''http://www.videolog.tv''>Videolog.tv</a>.</p>               ",
+        "uri_comentarios": "/video/671092/comentarios.json", "id": 671092}}'
+    http_version: '1.1'
+  recorded_at: Thu, 14 Mar 2013 02:18:02 GMT
+recorded_with: VCR 2.4.0

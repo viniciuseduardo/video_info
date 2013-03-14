@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.videolog.tv/video/577494.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - max-age=0
+      - no-cache
+      content-type:
+      - application/json; charset=UTF-8
+      date:
+      - Thu, 14 Mar 2013 02:18:21 GMT
+      etag:
+      - ! '"53433eecd8129ae9e91f68d61a9f7314df34f175"'
+      expires:
+      - Thu, 14 Mar 2013 02:18:21 GMT
+      server:
+      - TornadoServer/2.4
+      content-length:
+      - '1327'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"video": {"ordem": 5, "id_canal": 30, "thumb": "http://videolog.tv/video_thumb.php?video=577494",
+        "tags": [{"visivel": "S", "nome": "espalhe"}, {"visivel": "S", "nome": "trident
+        golf"}, {"visivel": "S", "nome": "trind connection"}, {"visivel": "S", "nome":
+        "case videolog"}, {"visivel": "S", "nome": "campanha videolog"}], "mobile":
+        "S", "url_mp4": "http://cdn-br.videolog.tv/f3/2f/577494.mp4?epochTTL=9815238007200&token=b0541c643f478fa32999e9c9ad6b9e70&ri=10485760&rs=600",
+        "duracao": "00:04:00", "uri": "/video/577494.json", "uri_videos_relacionados":
+        "/video/577494/videosRelacionados.json", "texto": "A final do ampionato da
+        Trident", "visitas": 6101, "sinc": 3, "usuario_id": 193905, "criacao": "2010-09-10T22:39:01",
+        "link": "http://videolog.tv/video.php?id=577494", "privacidade": "0", "titulo":
+        "Case TridentGolf", "embed": "                 <iframe width=''560'' height=315
+        src=''http://embed.videolog.tv/v/index.php?id_video=577494&width=560&height=315&config_url=''
+        scrolling=''no'' frameborder=''0'' allowfullscreen></iframe>                 <p><a
+        href=''http://www.videolog.tv/video.php?id=577494''>Case TridentGolf</a> por
+        <a href=''http://www.videolog.tv/videolog''> videolog </a> no <a href=''http://www.videolog.tv''>Videolog.tv</a>.</p>               ",
+        "uri_comentarios": "/video/577494/comentarios.json", "id": 577494}}'
+    http_version: '1.1'
+  recorded_at: Thu, 14 Mar 2013 02:18:06 GMT
+recorded_with: VCR 2.4.0

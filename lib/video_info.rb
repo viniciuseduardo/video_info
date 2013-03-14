@@ -3,6 +3,7 @@ require 'multi_json'
 require 'video_info/version'
 require 'providers/vimeo'
 require 'providers/youtube'
+require 'providers/videolog'
 
 module VideoInfo
 
@@ -20,7 +21,9 @@ private
       Vimeo.new(url, options)
     when /(youtube\.com)|(youtu\.be)/
       Youtube.new(url, options)
-    end
+    when /videolog\.tv/
+      Videolog.new(url, options)
+    end    
   end
 
   def self.valid?(video)

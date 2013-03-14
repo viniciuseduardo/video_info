@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Thibaud Guillaume-Gentil']
   s.email       = ['thibaud@thibaud.me']
   s.homepage    = 'http://rubygems.org/gems/video_info'
-  s.summary     = 'Vimeo & Youtube parser'
-  s.description = 'Get video info from youtube and vimeo url.'
+  s.summary     = 'Vimeo, Youtube & Videolog parser'
+  s.description = 'Get video info from youtube, vimeo and videolog url.'
 
   s.rubyforge_project = "video_info"
 
